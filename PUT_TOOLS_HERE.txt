@@ -1,0 +1,3 @@
+Optional alternative to installing tools through Setup.cmd:
+Place ffmpeg.exe, ffprobe.exe, and deno.exe directly in this folder.
+Download only from trusted official project links listed in README.txt.

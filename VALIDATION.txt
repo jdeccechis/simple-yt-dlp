@@ -1,0 +1,18 @@
+VALIDATION
+
+8 automated checks passed in the creation environment (Linux):
+- Every format/resolution combination parses with the installed yt-dlp.
+- Source URL validation and domain matching.
+- Best-available and capped resolution selection.
+- Silent videos are supported.
+- Real local downloads/conversions to MP4, MKV, WebM and AVI.
+  All four retained 600 x 600 dimensions and audio.
+- Structured progress updates and final output paths.
+- Cancellation of a running download subprocess.
+- Cancellation before the subprocess starts.
+
+The GUI imports in about 0.05 seconds here, without importing yt-dlp or
+contacting a website. This is not a measurement of Windows window startup.
+Windows setup, live hosting-site downloads and GUI layout could not be
+verified in this environment. The under-three-second startup target
+requires a check on your Windows 11 PC.
